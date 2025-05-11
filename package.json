@@ -1,0 +1,15 @@
+{
+    "name": "aimee-v1-bot",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "postTweet.js",
+    "scripts": {
+        "start": "node postTweet.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "node-fetch": "^3.3.2",
+        "openai": "^4.98.0",
+        "twitter-api-v2": "^1.15.0"
+    }
+}
